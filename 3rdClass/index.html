@@ -25,8 +25,8 @@
         border: 1px solid red;
         padding: 2px;
         display: flex;
-        gap: 20px;
-        /* height: 300px; */
+        /* gap: 20px; */
+        height: 300px;
 
         /* flex-direction: row | row-reverse | column | column-reverse; */
         /* flex-direction: row-reverse; */
@@ -45,7 +45,7 @@
         /* justify-content: space-evenly; */
 
         /* align-items: stretch; */
-        /* align-items: flex-start; */
+        align-items: flex-start;
         /* align-items: flex-end; */
         /* align-items: center; */
       }
@@ -54,6 +54,26 @@
         border: 1px solid yellowgreen;
         padding: 20px;
       }
+      /* : pseduo class */
+      .child-elements:nth-child(1) {
+        /* order: 3; */
+        /* flex-grow: 1; */
+      }
+      .child-elements:nth-child(2) {
+        /* order: 2; */
+        /* flex-grow: 2; */
+        flex-basis: 20%;
+        /* width: 20%; */
+        /* flex-basis is like width */
+        align-self: flex-end;
+      }
+      .child-elements:nth-child(3) {
+        /* order: 1; */
+        /* flex-grow: 1; */
+      }
+      /* .child-elements:hover {
+        margin-bottom: 20px;
+      } */
     </style>
   </head>
   <body>
@@ -61,40 +81,6 @@
       <div class="child-elements">Item 1</div>
       <div class="child-elements">Item 2</div>
       <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <!-- <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div>
-      <div class="child-elements">Item 3</div> -->
     </div>
   </body>
 </html>
