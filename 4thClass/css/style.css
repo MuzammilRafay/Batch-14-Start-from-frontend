@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* margin bahar se space dega */
+/* margin andar se space dega */
+
+#header {
+  background-color: white;
+  border-bottom: 3px solid #004ac6;
+}
+#sub-header {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#log {
+  /* background-color: green; */
+}
+#navbar {
+  /* background-color: purple; */
+}
+#navbar ul {
+  display: flex;
+  gap: 30px;
+}
+#navbar ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+#right-btn button {
+  background-color: #004ac6;
+  color: white;
+  font-size: 18px;
+  padding: 5px 30px;
+  border: none;
+  /* 0px top bottom */
+  /* 20px left right */
+}
+
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+}

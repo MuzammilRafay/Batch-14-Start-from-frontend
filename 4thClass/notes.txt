@@ -1,0 +1,8 @@
+open figma website
+
+figma.com
+
+create your account from continue with google
+
+drag & drop .fig file from resources folder
+
