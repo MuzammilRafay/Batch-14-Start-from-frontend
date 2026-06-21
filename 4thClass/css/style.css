@@ -6,10 +6,21 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f8f9ff;
+  padding-bottom: 100px;
 }
 
 img {
   width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #121c2a;
 }
 
 /* margin bahar se space dega */
@@ -55,15 +66,26 @@ img {
   padding-right: 40px;
 }
 
-.learn-web-development {
-  display: flex;
+.common-border {
   background-color: white;
   border: 4px dashed #c3c6d7;
   border-radius: 5px;
-
-  /* box k bahar se space ho to margin use hoga */
   margin-top: 60px;
   padding: 20px;
+}
+
+.learn-web-development {
+  /* background-color: white;
+  border: 4px dashed #c3c6d7;
+  border-radius: 5px;
+
+  margin-top: 60px;
+  padding: 20px;
+  ye code .common-border me hai ab
+  */
+
+  display: flex;
+
   /* padding 4ro traf se ayegi top bottom left right */
   justify-content: space-between;
 
@@ -98,4 +120,58 @@ img {
 
 #about-section {
   gap: 40px;
+}
+
+#course-section-container {
+}
+
+.common-heading {
+  text-align: center;
+  font-size: 32px;
+}
+
+#courses-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.courses-items {
+  border: 3px solid #004ac6;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 4px;
+  gap: 12px;
+  flex-grow: 1;
+}
+.courses-items img {
+  max-width: 48px;
+  /* ziyada se ziyada */
+}
+.courses-items h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.courses-items p {
+  margin-bottom: 10px;
+}
+
+.courses-items button {
+  width: 100%;
+  color: #004ac6;
+  border: 3px solid #004ac6;
+  background-color: transparent;
+  /* padding-top: 8px; */
+  /* padding-bottom: 8px; */
+  padding: 4px 0px;
+}
+
+#admission-form {
+  background-color: #e6eeff;
 }
