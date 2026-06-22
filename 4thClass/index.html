@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Squadcoders Site</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
@@ -90,7 +92,56 @@
 
       <div class="common-border" id="admission-form">
         <h2 class="common-heading">Contact Us</h2>
+
+        <form action="" id="contact-us-form">
+          <div class="form-items">
+            <label for="">Name</label>
+            <input type="text" placeholder="Your Name" required="true" />
+          </div>
+
+          <div class="form-items">
+            <label for="">Email</label>
+            <input
+              type="email"
+              placeholder="email@example.com"
+              required="true"
+            />
+          </div>
+
+          <div class="form-items">
+            <label for="">Message</label>
+            <textarea
+              name=""
+              id=""
+              placeholder="Tell us about your learning goals...."
+              required="true"
+            ></textarea>
+          </div>
+
+          <button>SEND MESSAGE</button>
+        </form>
       </div>
     </div>
+
+    <!-- <div id="footer"></div> -->
+    <!-- footer.container>div#sub-footer-container>div.footer-items*2 -->
+    <!-- emmet package html -->
+    <footer class="container">
+      <div id="sub-footer-container">
+        <div class="footer-items" id="footer-item-one">
+          <h3>SQUADCODERSDEV</h3>
+          <p>© 2026 SQUAD CODERSDEV. Educational Functionalism.</p>
+        </div>
+        <div class="footer-items" id="footer-item-two">
+          <nav>
+            <ul>
+              <li>Documentation</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Service</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
