@@ -250,13 +250,48 @@ footer {
   font-weight: 500;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE LAYOUT */
 /* APKA DESIGN MOBILE/TABLET/LAPTOP/LCD har chiz per perfect dhekhe */
 
+/* @media (min-width: 970px) { */
+/* 970px width ki jo device hogi us par ya us se choti device par ye css apply hogi */
 @media (max-width: 970px) {
   #sub-header {
     flex-direction: column;
     gap: 20px;
     padding-bottom: 20px;
   }
+  .learn-web-development {
+    flex-direction: column;
+    gap: 20px !important;
+  }
+  #first-learn-web-development {
+    flex-direction: column-reverse;
+  }
+
+  #courses-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #contact-us-form {
+    width: 80%;
+  }
+  #sub-footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
+
+/* 1st chiz
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+css specificity
+
+https://www.w3schools.com/cSS/css_specificity.asp
+*/
+
+/* css variables */
+/* css fonts */
+/* css animaion */
