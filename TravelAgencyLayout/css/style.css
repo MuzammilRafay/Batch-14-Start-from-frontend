@@ -8,6 +8,7 @@
   --primary-color: #006591;
   --secondary-color: #fea619;
   --text-one: #684000;
+  --text-two: #3e4850;
   /* --meraname: #006591; */
 }
 img {
@@ -45,11 +46,12 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  color: var(--primary-color);
+  color: var(--text-two);
   font-weight: bold;
 }
 nav ul li:hover {
   cursor: pointer;
+  color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
 }
 header button {
