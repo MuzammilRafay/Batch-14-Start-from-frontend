@@ -6,3 +6,4 @@ create your account from continue with google
 
 drag & drop .fig file from resources folder
 
+<img /> = self close tag

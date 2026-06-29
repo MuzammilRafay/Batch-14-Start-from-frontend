@@ -9,12 +9,21 @@
   --secondary-color: #fea619;
   --text-one: #684000;
   --text-two: #3e4850;
-  /* --meraname: #006591; */
+  --text-three: #131b2e;
+  --white: #ffffff;
+  --btn-color1: #003751;
+  --bg-color1: #0ea5e9;
+  --bg-color2: #ffffff29;
+  --border-color: #6e6e6e;
+  --body-color: #faf8ff /* --meraname: #006591; */;
 }
 img {
   width: 100%;
 }
-
+body {
+  background-color: var(--body-color);
+  padding-bottom: 150px;
+}
 .container {
   width: 90%;
   /* margin: 0 auto; */
@@ -36,6 +45,8 @@ header #sub-header {
   background-image: url("./../images/Container.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   height: 900px;
   /* height: 300px; */
   /* background-position: center; */
@@ -59,6 +70,82 @@ header button {
   background-color: var(--secondary-color);
   color: var(--text-one);
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 15px 25px;
+}
+#hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#overview {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#overview h3 {
+  font-size: 64px;
+  color: var(--white);
+  font-weight: bolder;
+}
+#overview p {
+  font-size: 18px;
+  color: var(--white);
+}
+/* #overview-btns {
+} */
+.common-btn-styling {
+  padding: 20px 40px;
+  border-radius: 12px;
+  font-size: 18px;
+  border: none;
+  font-weight: bolder;
+}
+#overview-btns {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+#overview-btn-1 {
+  color: var(--btn-color1);
+  background-color: var(--bg-color1);
+}
+
+#overview-btn-2 {
+  color: var(--white);
+  background-color: var(--bg-color2);
+  border: 1px solid var(--border-color);
+}
+#popular-destination-section {
+  padding: 96px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#popular-destination-section h4 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+#popular-destination-section h3 {
+  color: var(--text-three);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#popular-destinations-container {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 48px;
+}
+
+.popular-destination-items {
+  flex-basis: 30%;
+  background-color: var(--white);
+  border-radius: 12px;
+  overflow: auto;
+}
+.popular-destination-items {
 }
